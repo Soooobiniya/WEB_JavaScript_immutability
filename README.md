@@ -41,5 +41,5 @@
 => 이런 경우, immutable하게 하려면 해당 property를 freeze해주면 됨 ex) Object.freeze(o1.score);
 ***
 여덟번째 실습
-* const와 Object.freeze의 차이점: const는 이름이 가리키는 값을 다른 것으로 못 바꾸게 하는 것 (따라서 에러 발생함), Object.freeze는 값 자체를 못 바꾸게 하는 것!
-* 즉, const는 이름을 규제, Object.freeze는 값을 규제
+1. const와 Object.freeze의 차이점: const는 이름이 가리키는 값을 다른 것으로 못 바꾸게 하는 것 (따라서 에러 발생함), Object.freeze는 값 자체를 못 바꾸게 하는 것!
+2. 즉, const는 이름을 규제, Object.freeze는 값을 규제
